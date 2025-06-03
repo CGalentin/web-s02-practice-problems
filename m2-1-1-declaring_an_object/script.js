@@ -1,10 +1,8 @@
-console. log(4)
- 
 const jedi = {
     name: "Luke Skywalker",
     lightsaberColer: "Green",
     isTrainedByYoday: true,
-    age: 23
+    age: 23 
 }
 
 console.log("Jedi Profile:", jedi);
@@ -36,8 +34,9 @@ console.log("Fleet size:", starships.length); // Use this to find out how bog Ar
 starships.push("A-wing"); // Adding to Array
 console.log(starships)
 starships.pop() ///Pop removes last value
-starships.splice(1,0, "A-wing")
-console.log()
+starships.splice(1,0, "A-wing")// Splice replaces a value
+console.log()//
+
 
 
 

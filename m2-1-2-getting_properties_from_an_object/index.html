@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 
@@ -10,7 +11,17 @@
     Use square bracket notation to access the age property and store it in a variable called studentAge.
     Finally, log the grade property using either dot or square bracket notation.
     */
-    //ENTER YOUR CODE HERE
+    //let student = {
+     // name: "Chris",
+     // age: 45,
+      //grade: 10
+   // };
+
+    //let studentName = student.name;
+   // let studentAge = student["age"];
+   // console.log (student["grade"]);
+    //console.log( student.age);
+
 
     /*
     PROBLEM 2:
@@ -19,7 +30,18 @@
     Use square bracket notation to access the year property and store it in a variable called carYear.
     Finally, log the color property using either dot or square bracket notation.
     */
-    //ENTER YOUR CODE HERE
+    //let car = {
+     // make: "Toyota",
+      //model: 'Corolla',
+      //year: 1985,
+      //color: 'red'
+
+    //};
+
+    //let carMakeModel = car.make + " " + car["model"];
+   // let carYear = car["year"];
+    //console.log(car.color);
+    //console.log(carYear + " " + carMakeModel);
 
     /*
    PROBLEM 3:
@@ -27,23 +49,44 @@
    Then, use square bracket notation to log the name of the protagonist.
    Finally, use dot notation to log the occupation of the protagonist in the characters array.
    */
-    let book = {
+     /* let book = {
       title: "The Hitchhiker's Guide to the Galaxy",
       author: "Douglas Adams",
       publicationYear: 1979,
       protagonist: { name: "Arthur Dent", occupation: "Everyman" }
     };
-    //ENTER YOUR CODE HERE
 
-    /*
+    console.log(book['title'] + "\n" + book['author']);
+
+      /*
     PROBLEM 4:
     Using the code below, Use square bracket notation to access the math grade and store it in a variable called aliceMathGrade.
     Then, use dot notation to access the name and history grade for the student and concatenate them together with a space in between. Store the result in a variable called aliceNameAndHistoryGrade.
     */
-    let aliceStudent = {
+    /*  let aliceStudent = {
+      name: "Alice",
+      grades: { math: 95, science: 83, history: 88 }
+      
+    }
+    let aliceMathGrade = aliceStudent.grades['math'];
+
+    console.log(aliceMathGrade);
+    */
+
+    
+ let aliceStudent = {
       name: "Alice",
       grades: { math: 95, science: 83, history: 88 }
     }
+    let aliceMathGrade = aliceStudent.grades['math'];
+    console.log(aliceMathGrade); // 95
+
+    let aliceNameAndHistoryGrade = aliceStudent['name']  + ' ' + aliceStudent['grades']['history'];
+    console.log(aliceNameAndHistoryGrade); // "Alice 88"
+    
+
+      
+    
     //ENTER YOUR CODE HERE
 
   </script>

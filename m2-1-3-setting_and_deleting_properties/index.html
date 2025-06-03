@@ -8,37 +8,49 @@
     PROBLEM 1: Set the color of the below animal object by setting the property with dot notation. Console.log the animal object so that your new property prints to the console.
     */
     let animal = {
+
       name: "Zebra",
-      habitat: "Savannah"
+      habitat: "Hospital",
+      color: "green",
+      
     };
+
+      console.log(animal.color)
+      animal["Favorite Food"] = "watermelons";
+
+      console.log(animal.color + " " + ["Favorite Food"]);
+    
     //ENTER YOUR CODE HERE
+
 
     /*
     PROBLEM 2: Set the favorite food of the animal object by setting properties with square bracket notation in your animal log. Console.log the animal object so that your new property prints to the console.
     */
-    //ENTER YOUR CODE HERE
+    
 
     /*
     PROBLEM 3: Update the animal's location by overwriting the existing "habitat" property to "Hospital". Console.log the animal object so that the new habitat prints to the console.
     */
-    //ENTER YOUR CODE HERE
+    if (animal.color === "brown") {
+      console.log("brown");
+    } else {
+      console.log(animal.color);
+    }
 
-    /*
-    PROBLEM 4: Use the delete operator to delete the "color" property in the animal Object. Console.log the animal object to confirm the animal's color has been removed in the console.
-    */
-    //ENTER YOUR CODE HERE
+    delete animal.habitat
+    console.log(animal);
 
-    /*
-    PROBLEM 5 (DEBUGGING): You are trying to change the favorite food of the Tiger object, you are receiving an "Uncaught SyntaxError: Unexpected identifier". Fix the error so that the console prints the correct diet for the Tiger.
 
+    
     let tiger = {
       name: "Antonio",
       habitat: "Jungle",
       "Favorite Food": "Frosted Flakes",
     };
 
-   tiger.Favorite Food = "Wild Boar";
-    */
+   tiger['Favorite Food'] = "Wild Boar";
+   console.log(tiger.name);
+  
 
   </script>
 </body>
